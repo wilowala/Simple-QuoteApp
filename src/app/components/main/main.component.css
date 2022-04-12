@@ -1,0 +1,62 @@
+#maincontent{
+    background-color: #8383F7 !important;
+}
+
+.card-title{
+    cursor: pointer;
+}
+
+.card-title:hover{
+    color: blanchedalmond; 
+    text-decoration-line: underline ;
+}
+
+.card{
+    background-color: rgba(20, 69, 87, 0.8);
+    color: blanchedalmond;
+    border:1px  #8383F7;
+    border-style: groove;
+}
+
+.title{
+    color: #8383F7;
+}
+
+.title2{
+    color: blanchedalmond;
+}
+
+.quotes{
+    color: blanchedalmond;
+    display: block;
+}
+
+.container{
+    width: 80%;
+    float: left;
+}
+
+.container h4{
+    color: rgb(20, 69, 87);
+}
+
+.popularQuote{
+    width: 20%;
+    float: right;
+}
+
+.popularQuote h4{
+    color: rgb(20, 69, 87);
+}
+
+.green{
+    color: green;
+    font-weight: 700;
+}
+
+.red{
+    color: red;
+    display: block;
+    margin-left: 2rem;
+    font-weight: 700;
+}
