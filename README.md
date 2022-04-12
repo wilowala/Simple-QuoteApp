@@ -13,9 +13,7 @@
 
 ## Description
 
-This is a MS Capstone project done at the end of every module. It is meant to enhance soft skills, moreso team-work and presantation skills, as well as consolidating concepts learnt during the module. Trip na Marafiki make use of javascript constructor functions in contact form validation, hover, toggle, and pop effects among many other features.
-
-![Screenshot from 2022-03-25 06-47-16](https://user-images.githubusercontent.com/98161657/160051406-5b8d7ad5-2fe1-4ddd-a5d4-e25875d0f9c0.png)
+A simple quote app that a user can generate quotes by filling up the form, and vote for or against various quotes based on merits.
 
 
 ## Installation
