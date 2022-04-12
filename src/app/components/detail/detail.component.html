@@ -1,1 +1,10 @@
-<p>detail works!</p>
+<div class="card-text">
+
+    <hr>
+    <div class="d-flex justify-content-between">
+        <p><small class="text-muted"> Author: </small> {{quote.author}}</p>
+    <p><small class="text-muted">Published by: </small> {{quote.name}}</p>
+    <p><small class="text-muted">Posted: </small> {{quote.date|date}} days ago</p>
+    <button (click)='quoteDeletion(true)' class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></button>
+    </div>
+</div>
