@@ -36,7 +36,7 @@ export class MainComponent implements OnInit {
   deleteQuote(isDeleted,index){
 
     if(isDeleted){
-      let remove=confirm(`Are you sure you want to delete this ${this.quotes[index].quoteTitle}?`)
+      let remove=confirm(`Are you sure you want to delete this quote entitled ${this.quotes[index].quoteTitle}?`)
       if(remove){
         this.quotes.splice(index,1)
       }

@@ -23,6 +23,16 @@
                       </div>
                       
                     </div>
+
+                    <div class="form-group">
+                      <label for="">Qoute Title</label>
+                      <input type="text" name="quoteTitle" id="quoteTitle" class="form-control" placeholder="Please enter your quote title..." required #quoteTitle='ngModel' [(ngModel)]="newQuote.quoteTitle">
+                      <div [hidden]="quoteTitle.value||quoteTitle.pristine" class="alert alert-danger">
+                          <p>Name is required</p>
+                      </div>
+                      
+                    </div>
+
                     <div class="row">
                         <div class="col-md-8">
                             <div class="form-group">
@@ -30,9 +40,10 @@
                               <textarea class="form-control" name="quote" id="quote" rows="3" placeholder="Please input Quote" required #quote='ngModel' [(ngModel)]="newQuote.quote"></textarea>
                               <div [hidden]="quote.value||quote.pristine" class="alert alert-danger">
                                 <p>Quote is required</p>
-                            </div>
+                              </div>
                             </div>
                         </div>
+
                         <div class="col-md-4">
                             <div class="form-group">
                               <label for="">Author</label>
@@ -44,12 +55,11 @@
                             </div>
                         </div>
                     </div>
-                
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-success">ADD</button>
-                </div>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-success">Add</button>
+              </div>
             </form>
         </div>
       </div>
