@@ -14,7 +14,7 @@
                 <div class="card" *ngFor="let quote of quotes;let i=index">
                     
                     <div class="card-body">
-                        <h5 class="card-title" (click)='toggleDetails(i)'><span class="title">{{quote.id}}</span><span class="mx-5 title">{{quote.quoteTitle}}</span> <br><i class="fas  fa-quote-left"></i> <br><br>{{quote.quote}}  </h5>
+                        <h5 class="card-title" (click)='toggleDetails(i)'><span class="title">{{quote.quoteTitle}}</span> <br><i class="fas  fa-quote-left"></i> <br><br>{{quote.quote}}  </h5>
                         
                         <div class="card-text"*ngIf="quote.showQuoteDetails">
                            <div class="d-flex">
@@ -34,7 +34,7 @@
             <h4>Popular Quotes</h4>
             <div class="card popular" *ngFor="let popular of populars;let i=index" appHighlight>
                 <div class="card-header">
-                    <h4 ><span class="title2">{{popular.id}}</span> <span class="mx-3 title2">{{popular.quoteTitle}}</span><br><i class="fas  fa-quote-left"></i> <br> {{popular.quote}}</h4>
+                    <h4 ><span class="title2">{{popular.quoteTitle}}</span><br><i class="fas  fa-quote-left"></i> <br> {{popular.quote}}</h4>
                 </div>
                 <div class="card-body">
                     <h6 class="card-title"><small class="text">Author ~ </small>{{popular.author}}</h6>
